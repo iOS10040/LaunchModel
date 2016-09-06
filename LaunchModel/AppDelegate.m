@@ -27,10 +27,10 @@
     DRMainTabBarViewController *centerVC = [[DRMainTabBarViewController alloc]init];
     self.window.rootViewController = centerVC;
     
-    UIImageView * launch = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
-    launch.image = [UIImage imageNamed:@"Default"];
-    
-    [self.window.rootViewController.view addSubview:launch];
+//    UIImageView * launch = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
+//    launch.image = [UIImage imageNamed:@"Default"];
+//    
+//    [self.window.rootViewController.view addSubview:centerVC];
     
     [self.window makeKeyAndVisible];
     
