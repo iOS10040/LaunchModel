@@ -43,6 +43,17 @@
 		8103FB201D7964E400817353 /* nav@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103FB051D7964E400817353 /* nav@3x.png */; };
 		8103FB231D7969F800817353 /* DRTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103FB221D7969F800817353 /* DRTabBarButton.m */; };
 		8103FB251D79852100817353 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103FB241D79852100817353 /* Default.png */; };
+		8111A7801D8154BD00C2DB92 /* DRGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8111A77F1D8154BD00C2DB92 /* DRGuideViewController.m */; };
+		8111A78C1D81561E00C2DB92 /* guide1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A7821D81561E00C2DB92 /* guide1@2x.png */; };
+		8111A78D1D81561E00C2DB92 /* guide2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A7831D81561E00C2DB92 /* guide2@2x.png */; };
+		8111A78E1D81561E00C2DB92 /* guide3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A7841D81561E00C2DB92 /* guide3@2x.png */; };
+		8111A78F1D81561E00C2DB92 /* guide4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A7851D81561E00C2DB92 /* guide4@2x.png */; };
+		8111A7901D81561E00C2DB92 /* guide5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A7861D81561E00C2DB92 /* guide5@2x.png */; };
+		8111A7911D81561E00C2DB92 /* guideProgress1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A7871D81561E00C2DB92 /* guideProgress1@2x.png */; };
+		8111A7921D81561E00C2DB92 /* guideProgress2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A7881D81561E00C2DB92 /* guideProgress2@2x.png */; };
+		8111A7931D81561E00C2DB92 /* guideProgress3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A7891D81561E00C2DB92 /* guideProgress3@2x.png */; };
+		8111A7941D81561E00C2DB92 /* guideProgress4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A78A1D81561E00C2DB92 /* guideProgress4@2x.png */; };
+		8111A7951D81561E00C2DB92 /* guideProgress5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A78B1D81561E00C2DB92 /* guideProgress5@2x.png */; };
 		8194D5C21D792DAF0041AFA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8194D5C11D792DAF0041AFA8 /* main.m */; };
 		8194D5C51D792DAF0041AFA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8194D5C41D792DAF0041AFA8 /* AppDelegate.m */; };
 		8194D5CD1D792DAF0041AFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8194D5CC1D792DAF0041AFA8 /* Assets.xcassets */; };
@@ -115,6 +126,18 @@
 		8103FB211D7969F800817353 /* DRTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRTabBarButton.h; sourceTree = "<group>"; };
 		8103FB221D7969F800817353 /* DRTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRTabBarButton.m; sourceTree = "<group>"; };
 		8103FB241D79852100817353 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8111A77E1D8154BD00C2DB92 /* DRGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRGuideViewController.h; sourceTree = "<group>"; };
+		8111A77F1D8154BD00C2DB92 /* DRGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRGuideViewController.m; sourceTree = "<group>"; };
+		8111A7821D81561E00C2DB92 /* guide1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide1@2x.png"; sourceTree = "<group>"; };
+		8111A7831D81561E00C2DB92 /* guide2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide2@2x.png"; sourceTree = "<group>"; };
+		8111A7841D81561E00C2DB92 /* guide3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide3@2x.png"; sourceTree = "<group>"; };
+		8111A7851D81561E00C2DB92 /* guide4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide4@2x.png"; sourceTree = "<group>"; };
+		8111A7861D81561E00C2DB92 /* guide5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide5@2x.png"; sourceTree = "<group>"; };
+		8111A7871D81561E00C2DB92 /* guideProgress1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideProgress1@2x.png"; sourceTree = "<group>"; };
+		8111A7881D81561E00C2DB92 /* guideProgress2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideProgress2@2x.png"; sourceTree = "<group>"; };
+		8111A7891D81561E00C2DB92 /* guideProgress3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideProgress3@2x.png"; sourceTree = "<group>"; };
+		8111A78A1D81561E00C2DB92 /* guideProgress4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideProgress4@2x.png"; sourceTree = "<group>"; };
+		8111A78B1D81561E00C2DB92 /* guideProgress5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideProgress5@2x.png"; sourceTree = "<group>"; };
 		8194D5BD1D792DAF0041AFA8 /* LaunchModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8194D5C11D792DAF0041AFA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8194D5C31D792DAF0041AFA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -236,6 +259,23 @@
 			path = navigation;
 			sourceTree = "<group>";
 		};
+		8111A7811D81561E00C2DB92 /* guide */ = {
+			isa = PBXGroup;
+			children = (
+				8111A7821D81561E00C2DB92 /* guide1@2x.png */,
+				8111A7831D81561E00C2DB92 /* guide2@2x.png */,
+				8111A7841D81561E00C2DB92 /* guide3@2x.png */,
+				8111A7851D81561E00C2DB92 /* guide4@2x.png */,
+				8111A7861D81561E00C2DB92 /* guide5@2x.png */,
+				8111A7871D81561E00C2DB92 /* guideProgress1@2x.png */,
+				8111A7881D81561E00C2DB92 /* guideProgress2@2x.png */,
+				8111A7891D81561E00C2DB92 /* guideProgress3@2x.png */,
+				8111A78A1D81561E00C2DB92 /* guideProgress4@2x.png */,
+				8111A78B1D81561E00C2DB92 /* guideProgress5@2x.png */,
+			);
+			path = guide;
+			sourceTree = "<group>";
+		};
 		8194D5B41D792DAF0041AFA8 = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +301,8 @@
 			children = (
 				8194D5C31D792DAF0041AFA8 /* AppDelegate.h */,
 				8194D5C41D792DAF0041AFA8 /* AppDelegate.m */,
+				8111A77E1D8154BD00C2DB92 /* DRGuideViewController.h */,
+				8111A77F1D8154BD00C2DB92 /* DRGuideViewController.m */,
 				8103FAD11D795C3F00817353 /* DRMacros.h */,
 				8103FAD21D795C5500817353 /* DRPrefixHeader.pch */,
 				8194D5FA1D794CB90041AFA8 /* Tools(工具) */,
@@ -368,6 +410,7 @@
 			isa = PBXGroup;
 			children = (
 				8103FB241D79852100817353 /* Default.png */,
+				8111A7811D81561E00C2DB92 /* guide */,
 				8103FAE91D7964E400817353 /* tabBar */,
 				8103FB001D7964E400817353 /* navigation */,
 			);
@@ -510,6 +553,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8111A7931D81561E00C2DB92 /* guideProgress3@2x.png in Resources */,
+				8111A7941D81561E00C2DB92 /* guideProgress4@2x.png in Resources */,
 				8103FB1F1D7964E400817353 /* nav@2x.png in Resources */,
 				8103FB061D7964E400817353 /* tabbar@2x.png in Resources */,
 				8103FB1B1D7964E400817353 /* tabbar_social_selected@3x.png in Resources */,
@@ -517,18 +562,26 @@
 				8103FB0E1D7964E400817353 /* tabbar_news.png in Resources */,
 				8194D5D01D792DAF0041AFA8 /* LaunchScreen.storyboard in Resources */,
 				8194D5CD1D792DAF0041AFA8 /* Assets.xcassets in Resources */,
+				8111A78E1D81561E00C2DB92 /* guide3@2x.png in Resources */,
+				8111A7951D81561E00C2DB92 /* guideProgress5@2x.png in Resources */,
+				8111A7921D81561E00C2DB92 /* guideProgress2@2x.png in Resources */,
 				8103FB151D7964E400817353 /* tabbar_pic@3x.png in Resources */,
 				8103FB1A1D7964E400817353 /* tabbar_social_selected@2x.png in Resources */,
 				8103FB0D1D7964E400817353 /* tabbar_ar_selected@3x.png in Resources */,
+				8111A78D1D81561E00C2DB92 /* guide2@2x.png in Resources */,
 				8103FB101D7964E400817353 /* tabbar_news@3x.png in Resources */,
+				8111A7901D81561E00C2DB92 /* guide5@2x.png in Resources */,
+				8111A7911D81561E00C2DB92 /* guideProgress1@2x.png in Resources */,
 				8103FB171D7964E400817353 /* tabbar_pic_selected@3x.png in Resources */,
 				8103FB091D7964E400817353 /* tabbar_ar@2x.png in Resources */,
 				8103FB1C1D7964E400817353 /* back.png in Resources */,
 				8103FB081D7964E400817353 /* tabbar_ar.png in Resources */,
 				8103FB191D7964E400817353 /* tabbar_social@3x.png in Resources */,
+				8111A78F1D81561E00C2DB92 /* guide4@2x.png in Resources */,
 				8103FB0F1D7964E400817353 /* tabbar_news@2x.png in Resources */,
 				8103FB131D7964E400817353 /* tabbar_news_selected@3x.png in Resources */,
 				8103FB121D7964E400817353 /* tabbar_news_selected@2x.png in Resources */,
+				8111A78C1D81561E00C2DB92 /* guide1@2x.png in Resources */,
 				8103FB251D79852100817353 /* Default.png in Resources */,
 				8103FB1E1D7964E400817353 /* back@3x.png in Resources */,
 				8103FB141D7964E400817353 /* tabbar_pic@2x.png in Resources */,
@@ -564,6 +617,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8111A7801D8154BD00C2DB92 /* DRGuideViewController.m in Sources */,
 				8103FAD01D795B9C00817353 /* DRMainTabBarViewController.m in Sources */,
 				8103FB231D7969F800817353 /* DRTabBarButton.m in Sources */,
 				8103FADF1D795FEF00817353 /* DRMineViewController.m in Sources */,

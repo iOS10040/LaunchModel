@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DRMainTabBarViewController.h"
+#import "DRGuideViewController.h"
 
 @interface AppDelegate ()
 
@@ -23,18 +24,45 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    //判断是否是第一次启动，是：启动页引导页，否：启动页
     DRMainTabBarViewController *centerVC = [[DRMainTabBarViewController alloc]init];
     self.window.rootViewController = centerVC;
     
-//    UIImageView * launch = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
-//    launch.image = [UIImage imageNamed:@"Default"];
-//    
-//    [self.window.rootViewController.view addSubview:centerVC];
+    [self isFirstLaunch];
     
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+//判断是否是第一次启动,是：启动页引导页，否：启动页
+- (void)isFirstLaunch{
+    if (![[NSUserDefaults standardUserDefaults]boolForKey:@"everLaunched"]) {
+        
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"everLaunched"];
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"firstLaunch"];
+        NSLog(@"第一次启动");
+    }else{
+        [[NSUserDefaults standardUserDefaults]setBool:NO forKey:@"firstLaunch"];
+        NSLog(@"不是第一次启动");
+    }
+    [[NSUserDefaults standardUserDefaults]synchronize];
+    
+    BOOL firstLaunched = [[NSUserDefaults standardUserDefaults]boolForKey:@"firstLaunch"];
+    if (firstLaunched) {//判断是否是第一次启动？
+        //将self.window.rootViewController的根视图设置为你的引导视图的控制器，然后在引导视图的最后一页实现一个按钮，然后实现presentViewController方法，跳转到你的主页
+        DRGuideViewController *vc = [[DRGuideViewController alloc]init];
+        self.window.rootViewController = vc;
+    }else{
+        DRMainTabBarViewController *mainVC = [[DRMainTabBarViewController alloc]init];
+        mainVC.view.transform = CGAffineTransformMakeScale(0.1, 0.1);
+        
+        //让页面由小变大
+        [UIView animateWithDuration:1 animations:^{
+            mainVC.view.transform = CGAffineTransformIdentity;
+        }];
+        
+        self.window.rootViewController = mainVC;
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
