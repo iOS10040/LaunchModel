@@ -138,6 +138,7 @@
 		8111A7891D81561E00C2DB92 /* guideProgress3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideProgress3@2x.png"; sourceTree = "<group>"; };
 		8111A78A1D81561E00C2DB92 /* guideProgress4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideProgress4@2x.png"; sourceTree = "<group>"; };
 		8111A78B1D81561E00C2DB92 /* guideProgress5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideProgress5@2x.png"; sourceTree = "<group>"; };
+		8180F7221DA9E65F00E7291E /* API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
 		8194D5BD1D792DAF0041AFA8 /* LaunchModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8194D5C11D792DAF0041AFA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8194D5C31D792DAF0041AFA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -303,6 +304,7 @@
 				8194D5C41D792DAF0041AFA8 /* AppDelegate.m */,
 				8111A77E1D8154BD00C2DB92 /* DRGuideViewController.h */,
 				8111A77F1D8154BD00C2DB92 /* DRGuideViewController.m */,
+				8180F7221DA9E65F00E7291E /* API.h */,
 				8103FAD11D795C3F00817353 /* DRMacros.h */,
 				8103FAD21D795C5500817353 /* DRPrefixHeader.pch */,
 				8194D5FA1D794CB90041AFA8 /* Tools(工具) */,
@@ -517,6 +519,7 @@
 				TargetAttributes = {
 					8194D5BC1D792DAF0041AFA8 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R9R5FF2ZPG;
 					};
 					8194D5D51D792DAF0041AFA8 = {
 						CreatedOnToolsVersion = 7.2;
@@ -760,6 +763,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R9R5FF2ZPG;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LaunchModel/DRPrefixHeader.pch;
 				INFOPLIST_FILE = LaunchModel/Info.plist;
@@ -774,6 +778,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R9R5FF2ZPG;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LaunchModel/DRPrefixHeader.pch;
 				INFOPLIST_FILE = LaunchModel/Info.plist;
