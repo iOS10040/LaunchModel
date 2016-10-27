@@ -20,6 +20,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    //状态栏白色文字
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
     //创建窗口
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];

@@ -16,5 +16,6 @@
 #import <Foundation/Foundation.h>
 #import "DRMacros.h"
 #import "API.h"
+#import "DRBaseViewController.h"
 
 #endif /* DRPrefixHeader_pch */

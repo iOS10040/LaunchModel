@@ -54,12 +54,14 @@
 		8111A7931D81561E00C2DB92 /* guideProgress3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A7891D81561E00C2DB92 /* guideProgress3@2x.png */; };
 		8111A7941D81561E00C2DB92 /* guideProgress4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A78A1D81561E00C2DB92 /* guideProgress4@2x.png */; };
 		8111A7951D81561E00C2DB92 /* guideProgress5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111A78B1D81561E00C2DB92 /* guideProgress5@2x.png */; };
+		815F5BDB1DACBFF100C73889 /* DRSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815F5BDA1DACBFF100C73889 /* DRSecondViewController.m */; };
 		8194D5C21D792DAF0041AFA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8194D5C11D792DAF0041AFA8 /* main.m */; };
 		8194D5C51D792DAF0041AFA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8194D5C41D792DAF0041AFA8 /* AppDelegate.m */; };
 		8194D5CD1D792DAF0041AFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8194D5CC1D792DAF0041AFA8 /* Assets.xcassets */; };
 		8194D5D01D792DAF0041AFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8194D5CE1D792DAF0041AFA8 /* LaunchScreen.storyboard */; };
 		8194D5DB1D792DAF0041AFA8 /* LaunchModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8194D5DA1D792DAF0041AFA8 /* LaunchModelTests.m */; };
 		8194D5E61D792DAF0041AFA8 /* LaunchModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8194D5E51D792DAF0041AFA8 /* LaunchModelUITests.m */; };
+		81AB2A9E1DBEF85F008195C3 /* DRSocialsSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AB2A9D1DBEF85F008195C3 /* DRSocialsSecondVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +140,8 @@
 		8111A7891D81561E00C2DB92 /* guideProgress3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideProgress3@2x.png"; sourceTree = "<group>"; };
 		8111A78A1D81561E00C2DB92 /* guideProgress4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideProgress4@2x.png"; sourceTree = "<group>"; };
 		8111A78B1D81561E00C2DB92 /* guideProgress5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guideProgress5@2x.png"; sourceTree = "<group>"; };
+		815F5BD91DACBFF100C73889 /* DRSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSecondViewController.h; sourceTree = "<group>"; };
+		815F5BDA1DACBFF100C73889 /* DRSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSecondViewController.m; sourceTree = "<group>"; };
 		8180F7221DA9E65F00E7291E /* API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
 		8194D5BD1D792DAF0041AFA8 /* LaunchModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8194D5C11D792DAF0041AFA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 		8194D5E11D792DAF0041AFA8 /* LaunchModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8194D5E51D792DAF0041AFA8 /* LaunchModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchModelUITests.m; sourceTree = "<group>"; };
 		8194D5E71D792DAF0041AFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81AB2A9C1DBEF85F008195C3 /* DRSocialsSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRSocialsSecondVC.h; sourceTree = "<group>"; };
+		81AB2A9D1DBEF85F008195C3 /* DRSocialsSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRSocialsSecondVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +190,8 @@
 			children = (
 				8103FADA1D795FE200817353 /* DRHomeViewController.h */,
 				8103FADB1D795FE200817353 /* DRHomeViewController.m */,
+				815F5BD91DACBFF100C73889 /* DRSecondViewController.h */,
+				815F5BDA1DACBFF100C73889 /* DRSecondViewController.m */,
 			);
 			name = "Home(首页)";
 			path = Home;
@@ -214,6 +222,8 @@
 			children = (
 				8103FAE31D79600700817353 /* DRSocialsViewController.h */,
 				8103FAE41D79600700817353 /* DRSocialsViewController.m */,
+				81AB2A9C1DBEF85F008195C3 /* DRSocialsSecondVC.h */,
+				81AB2A9D1DBEF85F008195C3 /* DRSocialsSecondVC.m */,
 			);
 			name = "Socials(社团)";
 			path = Socials;
@@ -625,9 +635,11 @@
 				8103FB231D7969F800817353 /* DRTabBarButton.m in Sources */,
 				8103FADF1D795FEF00817353 /* DRMineViewController.m in Sources */,
 				8103FAD91D795FC400817353 /* DRBaseViewController.m in Sources */,
+				81AB2A9E1DBEF85F008195C3 /* DRSocialsSecondVC.m in Sources */,
 				8194D5C51D792DAF0041AFA8 /* AppDelegate.m in Sources */,
 				8194D5C21D792DAF0041AFA8 /* main.m in Sources */,
 				8103FAE81D79616C00817353 /* DRNavigationController.m in Sources */,
+				815F5BDB1DACBFF100C73889 /* DRSecondViewController.m in Sources */,
 				8103FADC1D795FE200817353 /* DRHomeViewController.m in Sources */,
 				8103FAE21D795FFA00817353 /* DRNewsViewController.m in Sources */,
 				8103FAE51D79600700817353 /* DRSocialsViewController.m in Sources */,
