@@ -47,6 +47,8 @@
     
     [self.navigationBar setTitleTextAttributes:navigationBarStyle];
     
+    //避免自定义的导航项被系统颜色渲染
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
 }
 
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer

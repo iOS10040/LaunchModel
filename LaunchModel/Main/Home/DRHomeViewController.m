@@ -21,16 +21,30 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    //创建按钮
-    [self createBtn];
+    //创建界面
+    [self setupUI];
 }
 
-- (void)createBtn{
+- (void)setupUI{
+    
+    //自定义右侧导航项
+    __weak DRHomeViewController *__weakSelf = self;
+    [self createRightButtonWithTitle:nil image:[UIImage imageNamed:@"search"] target:self withBlock:^{
+        [__weakSelf createSearchBtn];
+    }];
+    
+    //测试按钮
     UIButton *myBtn = [self setUpButtonWithBgImg:nil superView:self.view action:@selector(btnAction:) title:@"点我啊"];
     myBtn.backgroundColor = [UIColor lightGrayColor];
     myBtn.frame     = CGRectMake(0,0,100,30);
     myBtn.center = self.view.center;
 }
+
+-(void)createSearchBtn{
+    DLog(@"创建搜索按钮");
+}
+
+
 #pragma mark - 创建button
 - (UIButton *)setUpButtonWithBgImg:(UIImage *)bgImg superView:(UIView *)superView action:(SEL)action title:(NSString *)title{
     UIButton *btn            = [UIButton buttonWithType:UIButtonTypeSystem];
