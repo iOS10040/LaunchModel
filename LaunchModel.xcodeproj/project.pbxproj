@@ -331,7 +331,6 @@
 				8194D5F51D794BFB0041AFA8 /* Main(主界面) */,
 				8194D5F61D794BFB0041AFA8 /* Resources(资源) */,
 				8194D5F71D794BFB0041AFA8 /* ThirdPart(第三方框架) */,
-				8194D5F41D794BFB0041AFA8 /* Frameworks(依赖库) */,
 				8194D5CC1D792DAF0041AFA8 /* Assets.xcassets */,
 				8194D5CE1D792DAF0041AFA8 /* LaunchScreen.storyboard */,
 				8194D5D11D792DAF0041AFA8 /* Info.plist */,
@@ -378,14 +377,6 @@
 			);
 			name = "Base(基类)";
 			path = Base;
-			sourceTree = "<group>";
-		};
-		8194D5F41D794BFB0041AFA8 /* Frameworks(依赖库) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Frameworks(依赖库)";
-			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		8194D5F51D794BFB0041AFA8 /* Main(主界面) */ = {
